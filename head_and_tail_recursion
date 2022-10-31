@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Head and Tail Recursion - Kartik Gaikwad Codes</title>
+    <script>
+      //   function colors() {
+      //     let data = 20;
+      //     console.warn(data);
+      //     if(true){
+      //         console.warn(data*20)
+      //     }else{
+      //         console.warn(data/20)
+      //     }
+      //   }
+      //   function days() {
+      //     colors();
+      //   }
+      //   function fruits() {
+      //     days();
+      //   }
+      //   function topFunction() {
+      //     fruits();
+      //   }
+      //   topFunction();
+
+      function test(x) {
+        console.warn(x);
+        if (x > 0) {
+          test(x - 1);
+        }
+        console.warn(x);
+      }
+
+      let data = 5;
+      test(data);
+    </script>
+  </head>
+  <body>
+    <h1>Head and Tail Recursion</h1>
+  </body>
+</html>
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
