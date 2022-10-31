@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Object Data Structure - Kartik Gaikwad Codes</title>
+    <script>
+      let data = {
+        name: "anil",
+        age: 28,
+        mail: "abc@test.com",
+        getName: function () {
+          return this.name;
+        },
+      };
+      data.contact = 12345;
+      data.name = "peter";
+
+      // for(x in data){
+      //     console.warn(data[x])
+      // }
+
+      // console.warn(Object.keys(data))
+      // console.warn(Object.values(data))
+
+      console.warn(Object.entries(data));
+    </script>
+  </head>
+  <body>
+    <h1>Object Data Structure</h1>
+  </body>
+</html>
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
