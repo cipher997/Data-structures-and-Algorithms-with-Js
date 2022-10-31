@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Merge Two in Array - Kartik Gaikwad Codes</title>
+    <script>
+      let data = [3, 7, 12, 34, 56, 90];
+      let data2 = [20, 30, 40, 50];
+      let data3 = [];
+      for (i = 0; i < data.length; i++) {
+        data3[i] = data[i];
+      }
+      for (i = 0; i < data2.length; i++) {
+        data3[data.length + i] = data2[i];
+      }
+      console.warn(data3);
+    </script>
+  </head>
+  <body></body>
+</html>
+
+119 line 4 space comp. 100
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
