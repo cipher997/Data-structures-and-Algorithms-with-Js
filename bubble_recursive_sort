@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Bubble Sort With Recursion - Kartik Gaikwad Codes</title>
+    <script>
+      let arr = [64, 34, 25, 12];
+
+      function recursiveBubbleSort(data, count) {
+        if (count == 1) {
+          return;
+        }
+        let currentEl = 0;
+
+        for (let i = 0; i < count - 1; i++) {
+          if (data[i] > data[i + 1]) {
+            let temp = data[i];
+            data[i] = data[i + 1];
+            data[i + 1] = temp;
+            currentEl++;
+          }
+        }
+        recursiveBubbleSort(data, count - 1);
+      }
+
+      recursiveBubbleSort(arr, arr.length);
+      console.warn(arr);
+    </script>
+  </head>
+  <body>
+    <h1>Bubble Sort With Recursion</h1>
+  </body>
+</html>
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
