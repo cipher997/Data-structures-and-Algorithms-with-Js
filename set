@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Set DSA with JavaScript - Kartik Gaikwad Codes</title>
+    <script>
+      let data = new Set(["anil", "peter", "anil"]);
+      data.add({ email: "test@test.com" });
+      console.warn(data.has("peter1"));
+      data.delete("anil");
+      console.warn(data);
+      for (x of data) {
+        console.warn(x);
+      }
+
+      data.forEach((val) => {
+        console.warn(val);
+      });
+      console.warn(data.entries());
+    </script>
+  </head>
+  <body>
+    <h1>Set DSA with JavaScript</h1>
+  </body>
+</html>
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
