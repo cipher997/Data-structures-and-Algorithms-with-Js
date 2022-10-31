@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Array Traversing - Kartik Gaikwad Codes</title>
+    <script>
+      let data = [9, 45, 2, 8, 45, 23, 7, 78, 0, 11, 41, 77];
+      // for(let i=0;i<data.length;i++)
+      // {
+      //     document.write(`Array ${i} is ${data[i]} <br>`)
+      // }
+      // let x=10;
+      // document.write(data[x]);
+      function getElement() {
+        let el = document.getElementById("element").value;
+        if (el < data.length && typeof parseInt(el) === "number") {
+          alert(data[el]);
+        } else {
+          alert("Please enter valid input");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <input type="text" id="element" />
+    <button onclick="getElement()">Get Element</button>
+  </body>
+</html>
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
