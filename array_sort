@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sort Element in Array - Kartik Gaikwad Codes</title>
+    <script>
+      //   let data = [40,30,12,25];
+      let data = [34, 3, 1, 25, 54, 12, 89, 5, 76, 789];
+
+      for (i = 0; i < data.length; i++) {
+        for (j = 0; j < data.length; j++) {
+          console.warn(data);
+
+          if (data[j] > data[j + 1]) {
+            let temp = data[j];
+            data[j] = data[j + 1];
+            data[j + 1] = temp;
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Array Sorting in JavaScript</h1>
+  </body>
+</html>
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
