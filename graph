@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Graph - Kartik Gaikwad Codes</title>
+    <script>
+      let data = [
+        [0, 1, 1, 0],
+        [1, 0, 1, 1],
+        [1, 1, 0, 0],
+        [0, 1, 0, 0],
+      ];
+      console.warn(data);
+    </script>
+  </head>
+  <body>
+    <h1>Graph Data Structure in JavaScript</h1>
+  </body>
+</html>
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
