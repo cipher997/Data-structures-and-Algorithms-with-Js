@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Recursion Array with Reverse - Kartik Gaikwad Codes</title>
+    <script>
+      let data = [5, 12, 65, 89, 0, 100, 200];
+      let temp;
+      function customReverse(data, start, end) {
+        console.warn(data);
+        if (start <= end) {
+          temp = data[start];
+          data[start] = data[end];
+          data[end] = temp;
+          customReverse(data, start + 1, end - 1);
+        }
+      }
+
+      customReverse(data, 0, data.length - 1);
+    </script>
+  </head>
+  <body>
+    <h1>Recursion Array with Reverse</h1>
+  </body>
+</html>
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
