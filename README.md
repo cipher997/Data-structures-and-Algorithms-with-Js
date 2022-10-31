@@ -1,2 +1,2 @@
 # Data-structure-and-Algorithms-DSA-
-my dataStructure and algorithms
+Complete programme for understanding dataStructure and algorithms.
