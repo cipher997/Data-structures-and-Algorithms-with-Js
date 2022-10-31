@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Binary Search with Iterative approach - Kartik Gaikwad Codes</title>
+    <script>
+      let data = [5, 9, 13, 17, 45, 67, 89, 100];
+      let find = 89;
+      let start = 0;
+      let end = data.length - 1;
+      let position = undefined;
+      while (start <= end) {
+        let mid = Math.floor((start + end) / 2);
+        // console.warn(data[mid]);
+        if (data[mid] === find) {
+          position = mid;
+          break;
+        } else if (data[mid] < find) {
+          start = mid + 1;
+        } else {
+          end = mid - 1;
+        }
+      }
+      console.warn(position);
+    </script>
+  </head>
+  <body>
+    <h1>Binary Search with Iterative approach</h1>
+  </body>
+</html>
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
