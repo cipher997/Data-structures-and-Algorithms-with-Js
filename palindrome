@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Check String is palindrome or not - Kartik Gaikwad Codes</title>
+    <script>
+      function palindrome(data) {
+        let start = 0;
+        let end = data.length - 1;
+        let result = true;
+        while (end > start) {
+          if (data[start] != data[end]) {
+            result = false;
+          }
+          start++;
+          end--;
+        }
+        return result;
+      }
+
+      let str = "level";
+      console.warn(palindrome(str));
+    </script>
+  </head>
+  <body>
+    <h1>Check String is palindrome or not</h1>
+  </body>
+</html>
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
