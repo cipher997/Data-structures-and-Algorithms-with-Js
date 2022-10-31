@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Indirect Recursion - Kartik Gaikwad Codes</title>
+    <script>
+      //   let money = 100;
+      //   let totalApple = 0;
+
+      //   function buyApple(x) {
+      //     if (x > 0) {
+      //       console.warn("I have", x, "RS", totalApple);
+      //       buyMore(x - 10);
+      //     } else {
+      //       console.warn("I don't have more money", totalApple);
+      //     }
+      //   }
+      //   function buyMore(x) {
+      //     totalApple++;
+      //     buyApple(x - 5);
+      //   }
+
+      //   buyApple(money);
+      function test(x) {
+        // console.warn(x)
+        if (x > 0) {
+          test(x - 1);
+        }
+        console.warn(x);
+      }
+
+      let data = 5;
+      test(data);
+    </script>
+  </head>
+  <body>
+    <h1>Indirect Recursion</h1>
+  </body>
+</html>
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
