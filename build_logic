@@ -1,0 +1,29 @@
+<html>
+  <title>Build logic - Kartik Gaikwad Codes</title>
+  <script>
+    let data = [10, 19, 6, 18, 45, 68, 90, 35, 100];
+    let evenArray = [];
+    let count = 0;
+
+    for (let i = 0; i < data.length; i++) {
+      if (data[i] % 2 == 0) {
+        count++;
+        evenArray.push(data[i] * 2);
+      }
+    }
+
+    console.warn(count);
+    console.warn(evenArray);
+  </script>
+  <h2>
+    Find Even Values from array, Make Double of every element and Find Array
+    length manually
+  </h2>
+</html>
+
+<!-- These DSA codes are created, for those who have immense interest in coding and
+programming.. everything is open to you people out there on my personal Github
+account (https://github.com/cipher997) for better understanding of Data structures and Algorithms in
+terms of my personal learnings. If you have any doubts please feel free to
+connect (email-id:kartik97gaikwad@gmail.com) regarding general coding
+informational purposes only! -->
